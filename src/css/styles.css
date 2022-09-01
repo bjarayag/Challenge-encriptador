@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #f3f5fc;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    height: 70em;
+}
+
+.container-logo {
+    width: auto;
+    height: 10em;
+}
+
+.container-logo img {
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+.box {
+    display: inline-grid;
+    grid-template-rows: 80% 20%;
+    width: auto;
+    height: 70em;
+}
+
+.box textarea {
+    position: absolute;
+    width: 25em;
+    height: 19em;
+    margin-top: 5em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 2em;
+    font-size: 2em;
+    line-height: 150%;
+
+    color: #0a3871;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.box img {
+    width: 1em;
+    height: 1em;
+    margin-left: 1em;
+    margin-top: 48em;
+
+}
+
+.box label {
+    width: 1em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: auto;
+
+    color: #495057;
+
+}
+
+.box-button {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.box #encriptar {
+    width: 20em;
+    height: 4em;
+    margin-left: 1em;
+    margin-right: 0.5em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    background-color: #0a3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.box #desencriptar {
+    width: 20em;
+    height: 4em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    background-color: #D8DFE8;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+
+}
+
+
+.box1 {
+    width: auto;
+    height: 70em;
+}
+
+
+.box1 div {
+    width: 18em;
+    height: 40em;
+    margin-left: 1.2em;
+    margin-top: 2.0em;
+    margin-right: 1em;
+
+    font-family: 'Inter';
+    font-style: normal ;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 24px;
+    border-style: solid;
+
+}
+
+.box1 textarea{
+    width: 25em;
+    height: auto;
+    margin-top: 3em;
+    margin-left: 3em;
+
+    display: block;
+    font-family: 'Inter';
+    font-style: normal ;
+    font-size: 15px;
+
+    border-color: transparent;
+
+}
+
+
+
+.box1 #muneco {
+    margin-top: 4em;
+    margin-left: 1em;
+    width: 17em;
+    height: 15em;
+
+}
+
+.box1 button {
+    width: 20em;
+    height: 4em;
+    margin-top: 7em;
+    margin-left: 4em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    background-color: #D8DFE8;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    
+}
+
+.box1 #nofound {
+    width: 15em;
+    height: 2em;
+    margin-left: 2em;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+
+}
+
+.box1 #instruccion {
+    width: 20em;
+    height: 2em;
+    margin-left: 5em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+}
+
+
+
+
